@@ -1,0 +1,88 @@
+{
+  "categories": [
+    {
+      "id": "electronics",
+      "name": "Electronics",
+      "description": "Gadgets, devices, and tech accessories",
+      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+      "productCount": 4
+    },
+    {
+      "id": "mens-clothing",
+      "name": "Men's Clothing",
+      "description": "Shirts, pants, jackets, and shoes for men",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "productCount": 4
+    },
+    {
+      "id": "womens-clothing",
+      "name": "Women's Clothing",
+      "description": "Dresses, bags, and accessories for women",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "productCount": 4
+    },
+    {
+      "id": "home-kitchen",
+      "name": "Home & Kitchen",
+      "description": "Cookware, appliances, and home essentials",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "productCount": 4
+    },
+    {
+      "id": "sports",
+      "name": "Sports & Fitness",
+      "description": "Equipment and accessories for your workout",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "productCount": 4
+    },
+    {
+      "id": "books",
+      "name": "Books",
+      "description": "Programming, fiction, cookbooks, and more",
+      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+      "productCount": 4
+    },
+    {
+      "id": "beauty",
+      "name": "Beauty & Care",
+      "description": "Skincare, makeup, and personal care products",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "productCount": 4
+    },
+    {
+      "id": "pet-supplies",
+      "name": "Pet Supplies",
+      "description": "Toys, food, and accessories for your pets",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "productCount": 4
+    },
+    {
+      "id": "toys-games",
+      "name": "Toys & Games",
+      "description": "Board games, puzzles, and fun for all ages",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "productCount": 4
+    },
+    {
+      "id": "garden-outdoor",
+      "name": "Garden & Outdoor",
+      "description": "Tools, lights, and furniture for outdoor living",
+      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+      "productCount": 4
+    },
+    {
+      "id": "office-supplies",
+      "name": "Office Supplies",
+      "description": "Chairs, desks, and accessories for your workspace",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "productCount": 4
+    },
+    {
+      "id": "automotive",
+      "name": "Automotive",
+      "description": "Car accessories, tools, and maintenance products",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "productCount": 4
+    }
+  ]
+}

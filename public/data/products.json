@@ -1,0 +1,436 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Wireless Bluetooth Headphones",
+      "price": 79.99,
+      "description": "Premium noise-cancelling wireless headphones with 30-hour battery life.",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+      "rating": { "rate": 4.5, "count": 234 }
+    },
+    {
+      "id": 2,
+      "title": "Smart Watch Pro",
+      "price": 199.99,
+      "description": "Fitness tracker with heart rate monitor, GPS and 7-day battery.",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "rating": { "rate": 4.3, "count": 567 }
+    },
+    {
+      "id": 3,
+      "title": "Portable Bluetooth Speaker",
+      "price": 49.99,
+      "description": "Waterproof speaker with 360° sound and 12-hour playtime.",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "rating": { "rate": 4.1, "count": 189 }
+    },
+    {
+      "id": 4,
+      "title": "USB-C Charging Hub",
+      "price": 34.99,
+      "description": "7-in-1 USB-C hub with HDMI, SD card, and 100W power delivery.",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "rating": { "rate": 4.0, "count": 312 }
+    },
+    {
+      "id": 5,
+      "title": "Men's Classic Fit Polo Shirt",
+      "price": 29.99,
+      "description": "100% cotton pique polo with ribbed cuffs and 3-button placket.",
+      "category": "mens-clothing",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "rating": { "rate": 4.2, "count": 145 }
+    },
+    {
+      "id": 6,
+      "title": "Slim Fit Chinos",
+      "price": 44.99,
+      "description": "Stretch cotton chinos with modern slim fit. Available in 5 colors.",
+      "category": "mens-clothing",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "rating": { "rate": 4.4, "count": 89 }
+    },
+    {
+      "id": 7,
+      "title": "Denim Jacket",
+      "price": 89.99,
+      "description": "Classic denim jacket with button front and chest pockets.",
+      "category": "mens-clothing",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "rating": { "rate": 4.6, "count": 203 }
+    },
+    {
+      "id": 8,
+      "title": "Running Sneakers",
+      "price": 119.99,
+      "description": "Lightweight running shoes with responsive cushioning.",
+      "category": "mens-clothing",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "rating": { "rate": 4.7, "count": 456 }
+    },
+    {
+      "id": 9,
+      "title": "Women's Summer Dress",
+      "price": 39.99,
+      "description": "Floral print midi dress with v-neck and adjustable waist.",
+      "category": "womens-clothing",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "rating": { "rate": 4.1, "count": 178 }
+    },
+    {
+      "id": 10,
+      "title": "Leather Crossbody Bag",
+      "price": 59.99,
+      "description": "Genuine leather bag with adjustable strap and gold hardware.",
+      "category": "womens-clothing",
+      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      "rating": { "rate": 4.8, "count": 321 }
+    },
+    {
+      "id": 11,
+      "title": "Yoga Leggings",
+      "price": 34.99,
+      "description": "High-waist yoga leggings with 4-way stretch and side pockets.",
+      "category": "womens-clothing",
+      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_.jpg",
+      "rating": { "rate": 4.3, "count": 267 }
+    },
+    {
+      "id": 12,
+      "title": "Cashmere Scarf",
+      "price": 69.99,
+      "description": "Soft cashmere blend scarf. Perfect for cold weather.",
+      "category": "womens-clothing",
+      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+      "rating": { "rate": 4.5, "count": 134 }
+    },
+    {
+      "id": 13,
+      "title": "Stainless Steel Cookware Set",
+      "price": 149.99,
+      "description": "10-piece stainless steel pots and pans set. Dishwasher safe.",
+      "category": "home-kitchen",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "rating": { "rate": 4.6, "count": 98 }
+    },
+    {
+      "id": 14,
+      "title": "French Press Coffee Maker",
+      "price": 24.99,
+      "description": "8-cup borosilicate glass french press with stainless steel plunger.",
+      "category": "home-kitchen",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "rating": { "rate": 4.4, "count": 412 }
+    },
+    {
+      "id": 15,
+      "title": "Scented Candle Set",
+      "price": 19.99,
+      "description": "Set of 3 soy wax candles. Vanilla, Lavender, and Rose scents.",
+      "category": "home-kitchen",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "rating": { "rate": 4.2, "count": 289 }
+    },
+    {
+      "id": 16,
+      "title": "Bamboo Cutting Board",
+      "price": 15.99,
+      "description": "Organic bamboo cutting board with juice grooves. 18x12 inches.",
+      "category": "home-kitchen",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "rating": { "rate": 4.0, "count": 156 }
+    },
+    {
+      "id": 17,
+      "title": "Dumbbell Set 20kg",
+      "price": 89.99,
+      "description": "Adjustable dumbbell set with non-slip grip. 2x10kg.",
+      "category": "sports",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "rating": { "rate": 4.7, "count": 345 }
+    },
+    {
+      "id": 18,
+      "title": "Yoga Mat Premium",
+      "price": 39.99,
+      "description": "6mm thick non-slip yoga mat with carrying strap included.",
+      "category": "sports",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "rating": { "rate": 4.5, "count": 523 }
+    },
+    {
+      "id": 19,
+      "title": "Resistance Bands Set",
+      "price": 24.99,
+      "description": "Set of 5 resistance bands with different tension levels.",
+      "category": "sports",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "rating": { "rate": 4.3, "count": 278 }
+    },
+    {
+      "id": 20,
+      "title": "Running Armband",
+      "price": 9.99,
+      "description": "Waterproof phone armband compatible with all smartphones.",
+      "category": "sports",
+      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      "rating": { "rate": 3.9, "count": 167 }
+    },
+    {
+      "id": 21,
+      "title": "Programming Book Set",
+      "price": 79.99,
+      "description": "3-book bundle: JavaScript, React, and Node.js for beginners.",
+      "category": "books",
+      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+      "rating": { "rate": 4.8, "count": 634 }
+    },
+    {
+      "id": 22,
+      "title": "Design Thinking Workbook",
+      "price": 24.99,
+      "description": "Practical guide to design thinking with exercises and templates.",
+      "category": "books",
+      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_.jpg",
+      "rating": { "rate": 4.1, "count": 189 }
+    },
+    {
+      "id": 23,
+      "title": "Science Fiction Novel",
+      "price": 14.99,
+      "description": "Award-winning sci-fi novel. 450 pages of thrilling adventure.",
+      "category": "books",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "rating": { "rate": 4.6, "count": 445 }
+    },
+    {
+      "id": 24,
+      "title": "Cookbook: 100 Easy Recipes",
+      "price": 34.99,
+      "description": "Full-color cookbook with 100 easy recipes for every meal.",
+      "category": "books",
+      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+      "rating": { "rate": 4.4, "count": 312 }
+    },
+    {
+      "id": 25,
+      "title": "Moisturizing Face Cream",
+      "price": 24.99,
+      "description": "Hydrating face cream with hyaluronic acid and vitamin E. 50ml.",
+      "category": "beauty",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "rating": { "rate": 4.5, "count": 456 }
+    },
+    {
+      "id": 26,
+      "title": "Matte Lipstick Set",
+      "price": 19.99,
+      "description": "Set of 6 matte lipsticks in neutral and bold shades.",
+      "category": "beauty",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "rating": { "rate": 4.3, "count": 389 }
+    },
+    {
+      "id": 27,
+      "title": "Hair Straightener",
+      "price": 49.99,
+      "description": "Ceramic tourmaline hair straightener with adjustable temperature.",
+      "category": "beauty",
+      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      "rating": { "rate": 4.6, "count": 234 }
+    },
+    {
+      "id": 28,
+      "title": "Nail Polish Collection",
+      "price": 14.99,
+      "description": "Set of 12 quick-dry nail polishes in trending colors.",
+      "category": "beauty",
+      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_.jpg",
+      "rating": { "rate": 4.2, "count": 178 }
+    },
+    {
+      "id": 29,
+      "title": "Cat Tree Tower",
+      "price": 69.99,
+      "description": "Multi-level cat tree with scratching posts and hanging toys.",
+      "category": "pet-supplies",
+      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+      "rating": { "rate": 4.7, "count": 567 }
+    },
+    {
+      "id": 30,
+      "title": "Dog Chew Toys Pack",
+      "price": 12.99,
+      "description": "Set of 8 durable dog chew toys for aggressive chewers.",
+      "category": "pet-supplies",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "rating": { "rate": 4.4, "count": 345 }
+    },
+    {
+      "id": 31,
+      "title": "Automatic Pet Feeder",
+      "price": 39.99,
+      "description": "Programmable automatic pet feeder with 4L capacity.",
+      "category": "pet-supplies",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "rating": { "rate": 4.5, "count": 234 }
+    },
+    {
+      "id": 32,
+      "title": "Pet Grooming Kit",
+      "price": 29.99,
+      "description": "Professional pet grooming kit with clippers, scissors, and comb.",
+      "category": "pet-supplies",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "rating": { "rate": 4.3, "count": 189 }
+    },
+    {
+      "id": 33,
+      "title": "Board Game Collection",
+      "price": 34.99,
+      "description": "Family board game set with 5 classic games included.",
+      "category": "toys-games",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "rating": { "rate": 4.6, "count": 456 }
+    },
+    {
+      "id": 34,
+      "title": "Remote Control Car",
+      "price": 49.99,
+      "description": "High-speed RC car with 4WD and rechargeable battery.",
+      "category": "toys-games",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "rating": { "rate": 4.4, "count": 312 }
+    },
+    {
+      "id": 35,
+      "title": "Building Blocks Set 500pcs",
+      "price": 24.99,
+      "description": "Creative building blocks compatible with major brands.",
+      "category": "toys-games",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "rating": { "rate": 4.8, "count": 678 }
+    },
+    {
+      "id": 36,
+      "title": "Puzzle 1000 Pieces",
+      "price": 14.99,
+      "description": "Scenic landscape jigsaw puzzle with 1000 pieces.",
+      "category": "toys-games",
+      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      "rating": { "rate": 4.2, "count": 234 }
+    },
+    {
+      "id": 37,
+      "title": "Garden Tool Set",
+      "price": 39.99,
+      "description": "8-piece stainless steel garden tool set with storage bag.",
+      "category": "garden-outdoor",
+      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+      "rating": { "rate": 4.5, "count": 189 }
+    },
+    {
+      "id": 38,
+      "title": "Solar Garden Lights",
+      "price": 29.99,
+      "description": "Set of 8 solar-powered LED pathway lights. Waterproof.",
+      "category": "garden-outdoor",
+      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_.jpg",
+      "rating": { "rate": 4.3, "count": 345 }
+    },
+    {
+      "id": 39,
+      "title": "Hammock with Stand",
+      "price": 79.99,
+      "description": "Double hammock with steel stand. 450lb capacity.",
+      "category": "garden-outdoor",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "rating": { "rate": 4.7, "count": 267 }
+    },
+    {
+      "id": 40,
+      "title": "BBQ Grill Set",
+      "price": 59.99,
+      "description": "3-piece stainless steel BBQ tool set with aluminum case.",
+      "category": "garden-outdoor",
+      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+      "rating": { "rate": 4.4, "count": 156 }
+    },
+    {
+      "id": 41,
+      "title": "Office Desk Lamp LED",
+      "price": 39.99,
+      "description": "Adjustable LED desk lamp with 5 brightness levels and USB port.",
+      "category": "office-supplies",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "rating": { "rate": 4.6, "count": 423 }
+    },
+    {
+      "id": 42,
+      "title": "Ergonomic Office Chair",
+      "price": 249.99,
+      "description": "Mesh back ergonomic chair with lumbar support and adjustable arms.",
+      "category": "office-supplies",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "rating": { "rate": 4.8, "count": 534 }
+    },
+    {
+      "id": 43,
+      "title": "Wireless Mouse",
+      "price": 24.99,
+      "description": "Ergonomic wireless mouse with silent clicks and long battery life.",
+      "category": "office-supplies",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "rating": { "rate": 4.3, "count": 378 }
+    },
+    {
+      "id": 44,
+      "title": "Standing Desk Converter",
+      "price": 149.99,
+      "description": "Height-adjustable standing desk converter. Fits dual monitors.",
+      "category": "office-supplies",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "rating": { "rate": 4.5, "count": 289 }
+    },
+    {
+      "id": 45,
+      "title": "Car Phone Mount",
+      "price": 14.99,
+      "description": "Universal dashboard phone mount with strong suction cup.",
+      "category": "automotive",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "rating": { "rate": 4.2, "count": 567 }
+    },
+    {
+      "id": 46,
+      "title": "Car Vacuum Cleaner",
+      "price": 34.99,
+      "description": "Portable 12V car vacuum with HEPA filter and long cord.",
+      "category": "automotive",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "rating": { "rate": 4.1, "count": 234 }
+    },
+    {
+      "id": 47,
+      "title": "LED Headlights Kit",
+      "price": 49.99,
+      "description": "Ultra-bright LED headlight bulbs. Plug and play installation.",
+      "category": "automotive",
+      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      "rating": { "rate": 4.4, "count": 345 }
+    },
+    {
+      "id": 48,
+      "title": "Car Trunk Organizer",
+      "price": 24.99,
+      "description": "Foldable trunk organizer with multiple compartments and straps.",
+      "category": "automotive",
+      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_.jpg",
+      "rating": { "rate": 4.3, "count": 189 }
+    }
+  ]
+}
