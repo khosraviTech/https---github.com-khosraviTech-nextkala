@@ -1,5 +1,8 @@
+"use client";
 import Link from "next/link";
 import Logo from "./Logo";
+import LogInInfo from "./LogInInfo";
+import { SessionProvider } from "next-auth/react";
 
 export default function Menu() {
   return (
@@ -10,7 +13,10 @@ export default function Menu() {
       <Link href="/">Home</Link>
       <Link href="/contact">Contact</Link>
       <Link href="/about">About</Link>
-      <Link href="/login">Log In</Link>
+      <SessionProvider>
+        <LogInInfo />
+      </SessionProvider>
+
       {/* Search bar */}
       <Link href="/cart">Cart</Link>
       {/* Cart Icon */}
