@@ -1,20 +1,21 @@
 import NextAuth from "next-auth";
-import Credentials from "next-auth/providers/credentials";
-import GitHub from "next-auth/providers/github";
+import CredentialsProvider from "next-auth/providers/credentials";
+import GitHubProvider from "next-auth/providers/github";
 
-export const { handlers, signIn, signOut, auth } = NextAuth({
+export default NextAuth({
   providers: [
-    Credentials({
+    CredentialsProvider({
       name: "credentials",
       credentials: {
         email: { label: "Email", type: "email" },
         password: { label: "Password", type: "password" },
       },
+
       async authorize(credentials) {
-        const { email, password } = credentials as {
-          email: string;
-          password: string;
-        };
+        if (!credentials) return null;
+
+        const email = credentials.email;
+        const password = credentials.password;
 
         if (email === "1@1" && password === "1") {
           return {
@@ -23,21 +24,24 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
             email: "demo@nextkala.com",
           };
         }
+
         return null;
       },
     }),
 
-    GitHub({
-      clientId: process.env.AUTH_GITHUB_ID as string,
-      clientSecret: process.env.AUTH_GITHUB_SECRET as string,
+    GitHubProvider({
+      clientId: process.env.AUTH_GITHUB_ID!,
+      clientSecret: process.env.AUTH_GITHUB_SECRET!,
     }),
   ],
+
   pages: {
     signIn: "/login",
   },
+
   session: {
-    strategy: "jwt", 
+    strategy: "jwt",
   },
-  secret: process.env.NEXTAUTH_SECRET,
-  
+
+  secret: process.env.AUTH_SECRET,
 });
