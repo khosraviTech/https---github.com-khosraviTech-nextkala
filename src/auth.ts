@@ -1,7 +1,7 @@
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import GitHubProvider from "next-auth/providers/github";
-
+import GoogleProvider from "next-auth/providers/google";
 export default NextAuth({
   providers: [
     CredentialsProvider({
@@ -28,10 +28,14 @@ export default NextAuth({
         return null;
       },
     }),
+    GoogleProvider({
+      clientId: process.env.GOOGLE_CLIENT_ID as string,
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET as string
+    }),
 
     GitHubProvider({
-      clientId: process.env.AUTH_GITHUB_ID!,
-      clientSecret: process.env.AUTH_GITHUB_SECRET!,
+      clientId: process.env.AUTH_GITHUB_ID as string,
+      clientSecret: process.env.AUTH_GITHUB_SECRET as string,
     }),
   ],
 
@@ -45,3 +49,5 @@ export default NextAuth({
 
   secret: process.env.AUTH_SECRET,
 });
+
+
