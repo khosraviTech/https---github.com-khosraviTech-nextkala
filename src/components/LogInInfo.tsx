@@ -9,7 +9,7 @@ export default function LogInInfo() {
   if (session?.user) {
     return (
       <>
-        <div>👤 {session.user.name}</div>;
+        <div>👤 {session.user.name}</div>
         <button onClick={() => signOut()}>Log Out</button>
       </>
     );
